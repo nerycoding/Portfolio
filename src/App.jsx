@@ -60,8 +60,8 @@ const Portfolio = () => {
           >
             <a href="#contact">{t.nav.contact}</a>
             <ul className={`contact-dropdown ${showDropdown ? 'active' : ''}`} role="menu" aria-label={lang === 'pt' ? 'Links de contato' : 'Contact links'}>
-              <li role="none"><ExternalLink href="https://www.linkedin.com/in/lucasnsnt/" role="menuitem" tabIndex={0}>LinkedIn</ExternalLink></li>
-              <li role="none"><ExternalLink href="https://github.com/lucasnsnt/" role="menuitem" tabIndex={0}>GitHub</ExternalLink></li>
+              <li role="none"><ExternalLink href="https://www.linkedin.com/in/lucasnerysantos/" role="menuitem" tabIndex={0}>LinkedIn</ExternalLink></li>
+              <li role="none"><ExternalLink href="https://github.com/nerycoding/" role="menuitem" tabIndex={0}>GitHub</ExternalLink></li>
               <li role="none"><a href="https://links.lucasnsnt.ink/" className="contact-item" aria-label="Abrir árvore de links em nova guia">{t.nav.links}</a></li>
             </ul>
           </li>
